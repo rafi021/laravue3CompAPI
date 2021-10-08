@@ -14,7 +14,7 @@ It is a Laravel 8 & Vue 3, Composition API  based SPA demo project (Continue Dev
 2. Tailwind CSS
 3. laravel/breeze -- Authentication (composer require laravel/breeze --> php artisan breeze:install)
 4. Vue 3
-5. Compositor API
+5. Compositon API
 6. Vue Router 4
 7. Vue Loader 16.8.1
 
