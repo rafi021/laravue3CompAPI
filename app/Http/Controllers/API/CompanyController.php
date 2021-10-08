@@ -29,7 +29,8 @@ class CompanyController extends Controller
      */
     public function store(CompanyStoreRequest $request)
     {
-
+        $company = Company::create($request->validated());
+        return new CompanyResource($company);
     }
 
     /**
@@ -40,7 +41,7 @@ class CompanyController extends Controller
      */
     public function show(Company $company)
     {
-        //
+        return new CompanyResource($company);
     }
 
     /**
@@ -52,7 +53,9 @@ class CompanyController extends Controller
      */
     public function update(CompanyUpdateRequest $request, Company $company)
     {
-        //
+        $company->update($request->validated());
+        return new CompanyResource($company);
+
     }
 
     /**
@@ -63,6 +66,7 @@ class CompanyController extends Controller
      */
     public function destroy(Company $company)
     {
-        //
+        $company->delete();
+        return response()->noContent();
     }
 }
