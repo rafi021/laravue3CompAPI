@@ -10,11 +10,13 @@
 ## About LaravelSPA
 It is a Laravel 8 & Vue 3, Composition API  based SPA demo project (Continue Development). Build with love and open source for developers. 
 
-1. Tailwind CSS
-2. laravel/breeze -- Authentication (composer require laravel/breeze --> php artisan breeze:install)
-3. Vue 3
-4. Vue Router 4
-5. Vue Loader 16.8.1
+1. Laravel 8 
+2. Tailwind CSS
+3. laravel/breeze -- Authentication (composer require laravel/breeze --> php artisan breeze:install)
+4. Vue 3
+5. Compositor API
+6. Vue Router 4
+7. Vue Loader 16.8.1
 
 
 ## Getting Started Step by Step
